@@ -418,6 +418,8 @@ Geographic projections, shapes and math.
 * [*projection*.clipExtent](https://github.com/d3/d3-geo/blob/master/README.md#projection_clipExtent) - set the viewport clip extent, in pixels.
 * [*projection*.scale](https://github.com/d3/d3-geo/blob/master/README.md#projection_scale) - set the scale factor.
 * [*projection*.translate](https://github.com/d3/d3-geo/blob/master/README.md#projection_translate) - set the translation offset.
+* [*projection*.fitExtent](https://github.com/d3/d3-geo/blob/master/README.md#projection_fitExtent) - set the scale and translate to fit a GeoJSON object.
+* [*projection*.fitSize](https://github.com/d3/d3-geo/blob/master/README.md#projection_fitSize) - set the scale and translate to fit a GeoJSON object.
 * [*projection*.center](https://github.com/d3/d3-geo/blob/master/README.md#projection_center) - set the center point.
 * [*projection*.rotate](https://github.com/d3/d3-geo/blob/master/README.md#projection_rotate) - set the three-axis spherical rotation angles.
 * [*projection*.precision](https://github.com/d3/d3-geo/blob/master/README.md#projection_precision) - set the precision threshold for adaptive sampling.
@@ -845,8 +847,8 @@ Transform the DOM by selecting elements and joining to data.
 ### [Local Variables](https://github.com/d3/d3-selection/blob/master/README.md#local-variables)
 
 * [d3.local](https://github.com/d3/d3-selection/blob/master/README.md#local) - declares a new local variable.
-* [*local*.set](https://github.com/d3/d3-selection/blob/master/README.md#local_set) - get a local variable’s value.
-* [*local*.get](https://github.com/d3/d3-selection/blob/master/README.md#local_get) - set a local variable’s value.
+* [*local*.set](https://github.com/d3/d3-selection/blob/master/README.md#local_set) - set a local variable’s value.
+* [*local*.get](https://github.com/d3/d3-selection/blob/master/README.md#local_get) - get a local variable’s value.
 * [*local*.remove](https://github.com/d3/d3-selection/blob/master/README.md#local_remove) - delete a local variable.
 * [*local*.toString](https://github.com/d3/d3-selection/blob/master/README.md#local_toString) - get the property identifier of a local variable.
 
@@ -1019,7 +1021,7 @@ Parse and format times, inspired by strptime and strftime.
 * [d3.timeFormat](https://github.com/d3/d3-time-format/blob/master/README.md#timeFormat) - alias for *locale*.format on the default locale.
 * [d3.timeParse](https://github.com/d3/d3-time-format/blob/master/README.md#timeParse) - alias for *locale*.parse on the default locale.
 * [d3.utcFormat](https://github.com/d3/d3-time-format/blob/master/README.md#utcFormat) -  alias for *locale*.utcFormat on the default locale.
-* [d3.utcFormat](https://github.com/d3/d3-time-format/blob/master/README.md#utcParse) -  alias for *locale*.utcParse on the default locale.
+* [d3.utcParse](https://github.com/d3/d3-time-format/blob/master/README.md#utcParse) -  alias for *locale*.utcParse on the default locale.
 * [d3.isoFormat](https://github.com/d3/d3-time-format/blob/master/README.md#isoFormat) - an ISO 8601 UTC formatter.
 * [d3.isoParse](https://github.com/d3/d3-time-format/blob/master/README.md#isoParse) - an ISO 8601 UTC parser.
 * [d3.timeFormatLocale](https://github.com/d3/d3-time-format/blob/master/README.md#timeFormatLocale) - define a custom locale.
